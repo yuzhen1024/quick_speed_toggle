@@ -1,4 +1,5 @@
-control_key = "z"
+local mp = require('mp')
+local control_key = "z"
 local save_speed = mp.get_property("speed")
 mp.add_key_binding(control_key, "speed_toggle", function()
 	local n = mp.get_property("speed")
@@ -8,6 +9,6 @@ mp.add_key_binding(control_key, "speed_toggle", function()
 		save_speed = mp.get_property("speed")
 		mp.set_property("speed", 1)
 	end
-	msg = string.format("%.2f",mp.get_property("speed"))
+	local msg = string.format("%.2f",mp.get_property("speed"))
 	mp.osd_message("Speed: "..msg)
 end)
