@@ -12,6 +12,9 @@ Shift+# set speed 3.25
 x add speed -0.1
 c add speed 0.1
 ```
+
+To bind other keys, append [key-names](https://mpv.io/manual/master/#key-names) to here: https://github.com/yuzhen1024/quick_speed_toggle/blob/c930f9307c8e536c072b97a84fdbb3ca7f8c6433/speedtoggle.lua#L3
+
 # 关于字幕延迟 z/x 键
 ```
 Z add sub-delay -0.1
