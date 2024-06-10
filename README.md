@@ -13,5 +13,8 @@ x add speed -0.1
 c add speed 0.1
 ```
 # 关于字幕延迟 z/x 键
-mpv提供了更高效的方式：`Ctrl+Shift+Left` and `Ctrl+Shift+Right`
+```
+Z add sub-delay -0.1
+X add sub-delay 0.1
+```
 
